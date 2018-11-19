@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LocationOfString.h"
+#import "ObjectOrValueForKey.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [LocationOfString location];
+    [ObjectOrValueForKey ofkVSvfk];
 }
 
 

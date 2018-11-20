@@ -15,6 +15,7 @@
 		E65FB7E3219ED73A00770801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB7E2219ED73A00770801 /* main.m */; };
 		E65FB7EB219ED80F00770801 /* LocationOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB7EA219ED80F00770801 /* LocationOfString.m */; };
 		E65FB93921A28C9A00770801 /* ObjectOrValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */; };
+		E65FBBB621A401DB00770801 /* ContainString.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FBBB521A401DB00770801 /* ContainString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		E65FB7EA219ED80F00770801 /* LocationOfString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationOfString.m; sourceTree = "<group>"; };
 		E65FB93721A28C9A00770801 /* ObjectOrValueForKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectOrValueForKey.h; sourceTree = "<group>"; };
 		E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectOrValueForKey.m; sourceTree = "<group>"; };
+		E65FBBB421A401DB00770801 /* ContainString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainString.h; sourceTree = "<group>"; };
+		E65FBBB521A401DB00770801 /* ContainString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		E65FB7EE219ED8AF00770801 /* topics */ = {
 			isa = PBXGroup;
 			children = (
+				E65FBBB421A401DB00770801 /* ContainString.h */,
+				E65FBBB521A401DB00770801 /* ContainString.m */,
 				E65FB7E9219ED80F00770801 /* LocationOfString.h */,
 				E65FB7EA219ED80F00770801 /* LocationOfString.m */,
 				E65FB93721A28C9A00770801 /* ObjectOrValueForKey.h */,
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E65FB7D8219ED73900770801 /* ViewController.m in Sources */,
+				E65FBBB621A401DB00770801 /* ContainString.m in Sources */,
 				E65FB7E3219ED73A00770801 /* main.m in Sources */,
 				E65FB7EB219ED80F00770801 /* LocationOfString.m in Sources */,
 				E65FB7D5219ED73900770801 /* AppDelegate.m in Sources */,

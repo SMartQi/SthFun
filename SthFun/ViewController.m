@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ObjectOrValueForKey.h"
+#import "ContainString.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [ObjectOrValueForKey ofkVSvfk];
+    [ContainString containString];
 }
 
 

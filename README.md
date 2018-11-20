@@ -1,6 +1,16 @@
 # SthFun
 Let's learn something fun about iOS.
 
+## ContainString:
+
+ 在NSArray中检测是否有目标string
+
+>无论是@""生成的（常量区）或者是[NSString stringWithFormat:]生成的（堆或者栈），都只比较值。
+>
+>原因：NSArray的containsObject:对其中的元素调用了isEqual:方法，而NSString的isEqual:其实就是isEqualToString:。
+>
+>如果真的想检测指针是否相同，可以遍历元素，使用==比较；或者[stringArray indexOfObjectIdenticalTo:someString] != NSNotFound。
+
 ## LocationOfString
 
 获取不同初始化方式生成的字符串存储位置

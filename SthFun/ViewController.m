@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ContainString.h"
+#import "NullValueInDictionary.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [ContainString containString];
+    [NullValueInDictionary crashedNullValue];
 }
 
 

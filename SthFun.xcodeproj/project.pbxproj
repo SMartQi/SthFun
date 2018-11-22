@@ -16,6 +16,7 @@
 		E65FB7EB219ED80F00770801 /* LocationOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB7EA219ED80F00770801 /* LocationOfString.m */; };
 		E65FB93921A28C9A00770801 /* ObjectOrValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */; };
 		E65FBBB621A401DB00770801 /* ContainString.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FBBB521A401DB00770801 /* ContainString.m */; };
+		E6A1CC0321A6AB8D00B90114 /* NullValueInDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A1CC0221A6AB8D00B90114 /* NullValueInDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectOrValueForKey.m; sourceTree = "<group>"; };
 		E65FBBB421A401DB00770801 /* ContainString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainString.h; sourceTree = "<group>"; };
 		E65FBBB521A401DB00770801 /* ContainString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainString.m; sourceTree = "<group>"; };
+		E6A1CC0121A6AB8D00B90114 /* NullValueInDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NullValueInDictionary.h; sourceTree = "<group>"; };
+		E6A1CC0221A6AB8D00B90114 /* NullValueInDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NullValueInDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				E65FBBB521A401DB00770801 /* ContainString.m */,
 				E65FB7E9219ED80F00770801 /* LocationOfString.h */,
 				E65FB7EA219ED80F00770801 /* LocationOfString.m */,
+				E6A1CC0121A6AB8D00B90114 /* NullValueInDictionary.h */,
+				E6A1CC0221A6AB8D00B90114 /* NullValueInDictionary.m */,
 				E65FB93721A28C9A00770801 /* ObjectOrValueForKey.h */,
 				E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */,
 			);
@@ -169,6 +174,7 @@
 				E65FB7E3219ED73A00770801 /* main.m in Sources */,
 				E65FB7EB219ED80F00770801 /* LocationOfString.m in Sources */,
 				E65FB7D5219ED73900770801 /* AppDelegate.m in Sources */,
+				E6A1CC0321A6AB8D00B90114 /* NullValueInDictionary.m in Sources */,
 				E65FB93921A28C9A00770801 /* ObjectOrValueForKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

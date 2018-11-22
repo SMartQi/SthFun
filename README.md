@@ -3,7 +3,7 @@ Let's learn something fun about iOS.
 
 ## ContainString:
 
- 在NSArray中检测是否有目标string
+在NSArray中检测是否有目标string
 
 >无论是@""生成的（常量区）或者是[NSString stringWithFormat:]生成的（堆或者栈），都只比较值。
 >
@@ -19,9 +19,18 @@ Let's learn something fun about iOS.
 >
 > 以 [NSString stringWithFormat:] 方式生成的字符串，长度短于12的存储于栈区，且相同字符串地址相同；大于等于12的存储于堆区，且相同字符串地址不同。（地址数值大小：代码区 < 常量区 < 全局区 < 堆区 < 栈区）
 
+## NullValueInDictionary
+
+构造NSDictionary崩溃为[NSNull objectForKey:]:unrecognized selector的case
+
+>一般情况下，NSDictionary里面不会出现空数据，oc代码直接构造的dic不允许nil的存在。
+>
+>但是当dic是经由网络数据构造时，空数据可能会以NSNull的格式写入，后续操作时必须判断类型，否则会发生unrecognized selector崩溃。
+
+
 ## ObjectOrValueForKey
 
-  比较NSDictionary和NSString的objectForKey和valueForKey
+比较NSDictionary和NSString的objectForKey和valueForKey
 
 >对于NSDictionary来说:
 >

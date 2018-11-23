@@ -41,3 +41,7 @@ Let's learn something fun about iOS.
 >对于NSString及其他类来说：
 >
 >valueForKey的key是它的属性，且不需要加@。
+
+## Snapshot
+
+整个页面的截图

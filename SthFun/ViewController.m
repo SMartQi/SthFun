@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NullValueInDictionary.h"
+#import "Snapshot.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [NullValueInDictionary crashedNullValue];
+    [Snapshot snapshot];
 }
 
 

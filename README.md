@@ -1,6 +1,10 @@
 # SthFun
 Let's learn something fun about iOS.
 
+## CallStack:
+
+打印调用栈，解析一行的每个item
+
 ## ContainString:
 
 在NSArray中检测是否有目标string

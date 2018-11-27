@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Snapshot.h"
+#import "CallStack.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [Snapshot snapshot];
+    [CallStack showCallStackSymbols];
 }
 
 

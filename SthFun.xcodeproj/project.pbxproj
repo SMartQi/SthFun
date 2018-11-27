@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E60B625421A7EBEE005C84DB /* Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B625321A7EBEE005C84DB /* Snapshot.m */; };
+		E64E425521AD31A00071B1B6 /* CallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = E64E425421AD31A00071B1B6 /* CallStack.m */; };
 		E65FB7D5219ED73900770801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB7D4219ED73900770801 /* AppDelegate.m */; };
 		E65FB7D8219ED73900770801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB7D7219ED73900770801 /* ViewController.m */; };
 		E65FB7DB219ED73900770801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65FB7D9219ED73900770801 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 /* Begin PBXFileReference section */
 		E60B625221A7EBEE005C84DB /* Snapshot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snapshot.h; sourceTree = "<group>"; };
 		E60B625321A7EBEE005C84DB /* Snapshot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snapshot.m; sourceTree = "<group>"; };
+		E64E425321AD31A00071B1B6 /* CallStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallStack.h; sourceTree = "<group>"; };
+		E64E425421AD31A00071B1B6 /* CallStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallStack.m; sourceTree = "<group>"; };
 		E65FB7D0219ED73900770801 /* SthFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SthFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65FB7D3219ED73900770801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E65FB7D4219ED73900770801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		E65FB7EE219ED8AF00770801 /* topics */ = {
 			isa = PBXGroup;
 			children = (
+				E64E425321AD31A00071B1B6 /* CallStack.h */,
+				E64E425421AD31A00071B1B6 /* CallStack.m */,
 				E65FBBB421A401DB00770801 /* ContainString.h */,
 				E65FBBB521A401DB00770801 /* ContainString.m */,
 				E65FB7E9219ED80F00770801 /* LocationOfString.h */,
@@ -175,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E65FB7D8219ED73900770801 /* ViewController.m in Sources */,
+				E64E425521AD31A00071B1B6 /* CallStack.m in Sources */,
 				E65FBBB621A401DB00770801 /* ContainString.m in Sources */,
 				E65FB7E3219ED73A00770801 /* main.m in Sources */,
 				E65FB7EB219ED80F00770801 /* LocationOfString.m in Sources */,

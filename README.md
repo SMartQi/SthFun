@@ -15,6 +15,13 @@ Let's learn something fun about iOS.
 >
 >如果真的想检测指针是否相同，可以遍历元素，使用==比较；或者[stringArray indexOfObjectIdenticalTo:someString] != NSNotFound。
 
+## InfoForSymbolication:
+
+ 针对崩溃栈中的某一行做符号化
+
+> atos -o UUID对应的dsym文件路径/Contents/Resources/DWARF/App名称 -arch 手机架构 -l binaryImageAddress 崩溃日志中的内存地址
+
+
 ## LocationOfString
 
 获取不同初始化方式生成的字符串存储位置
@@ -22,6 +29,7 @@ Let's learn something fun about iOS.
 > 以 @"xxx" 方式生成的字符串存储在常量区，且相同字符串地址相同。
 >
 > 以 [NSString stringWithFormat:] 方式生成的字符串，长度短于12的存储于栈区，且相同字符串地址相同；大于等于12的存储于堆区，且相同字符串地址不同。（地址数值大小：代码区 < 常量区 < 全局区 < 堆区 < 栈区）
+
 
 ## NullValueInDictionary
 
@@ -45,6 +53,7 @@ Let's learn something fun about iOS.
 >对于NSString及其他类来说：
 >
 >valueForKey的key是它的属性，且不需要加@。
+
 
 ## Snapshot
 

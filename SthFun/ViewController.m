@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CallStack.h"
+#import "InfoForSymbolication.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [CallStack showCallStackSymbols];
+    [InfoForSymbolication phoneArchitecture];
+    [InfoForSymbolication executableUUID];
+    binaryImageAddress();
 }
 
 

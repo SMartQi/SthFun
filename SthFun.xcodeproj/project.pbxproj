@@ -20,6 +20,7 @@
 		E65FB93921A28C9A00770801 /* ObjectOrValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */; };
 		E65FBBB621A401DB00770801 /* ContainString.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FBBB521A401DB00770801 /* ContainString.m */; };
 		E6A1CC0321A6AB8D00B90114 /* NullValueInDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A1CC0221A6AB8D00B90114 /* NullValueInDictionary.m */; };
+		E6AE633921F56F61005ADB20 /* URLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AE633721F56F61005ADB20 /* URLComponents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		E65FBBB521A401DB00770801 /* ContainString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainString.m; sourceTree = "<group>"; };
 		E6A1CC0121A6AB8D00B90114 /* NullValueInDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NullValueInDictionary.h; sourceTree = "<group>"; };
 		E6A1CC0221A6AB8D00B90114 /* NullValueInDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NullValueInDictionary.m; sourceTree = "<group>"; };
+		E6AE633721F56F61005ADB20 /* URLComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLComponents.m; sourceTree = "<group>"; };
+		E6AE633821F56F61005ADB20 /* URLComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLComponents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E65FB93821A28C9A00770801 /* ObjectOrValueForKey.m */,
 				E60B625221A7EBEE005C84DB /* Snapshot.h */,
 				E60B625321A7EBEE005C84DB /* Snapshot.m */,
+				E6AE633821F56F61005ADB20 /* URLComponents.h */,
+				E6AE633721F56F61005ADB20 /* URLComponents.m */,
 			);
 			path = topics;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				E64E45ED21B0068B0071B1B6 /* InfoForSymbolication.m in Sources */,
 				E64E425521AD31A00071B1B6 /* CallStack.m in Sources */,
 				E65FBBB621A401DB00770801 /* ContainString.m in Sources */,
+				E6AE633921F56F61005ADB20 /* URLComponents.m in Sources */,
 				E65FB7E3219ED73A00770801 /* main.m in Sources */,
 				E65FB7EB219ED80F00770801 /* LocationOfString.m in Sources */,
 				E65FB7D5219ED73900770801 /* AppDelegate.m in Sources */,

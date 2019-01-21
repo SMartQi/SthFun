@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "InfoForSymbolication.h"
+#import "URLComponents.h"
 
 @interface ViewController ()
 
@@ -17,9 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [InfoForSymbolication phoneArchitecture];
-    [InfoForSymbolication executableUUID];
-    binaryImageAddress();
+    [URLComponents components];
 }
 
 
